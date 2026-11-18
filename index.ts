@@ -1,5 +1,5 @@
 import express from 'express';
-import Roadmaps from './routes/roadmaps'
+import Roadmaps from './routes/roadmaps.ts'
 import cors from 'cors'
 import env from 'dotenv'
 import { connectRedis } from './config/redis';
