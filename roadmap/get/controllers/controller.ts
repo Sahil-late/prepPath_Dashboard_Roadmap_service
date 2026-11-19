@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express"
-import { getAllService, getManyService } from '../services/service'
+import { getAllService, getManyService } from '../services/service.js'
 const getAll = async (req: Request, res: Response, next: NextFunction) => {
     try {
         let { roadmaps, msg, status } = await getAllService()

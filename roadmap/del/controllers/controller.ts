@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express"
-import {delAllServce,delManyServce} from '../services/service'
+import {delAllServce,delManyServce} from '../services/service.js'
 const delAll = async (req: Request, res: Response, next: NextFunction) => {
     try {
         let {msg,status} = await delAllServce()

@@ -1,8 +1,8 @@
 import express from 'express';
-import Roadmaps from './routes/roadmaps.ts'
+import Roadmaps from './routes/roadmaps.js'
 import cors from 'cors'
 import env from 'dotenv'
-import { connectRedis } from './config/redis';
+import { connectRedis } from './config/redis.js';
 env.config()
 
 const app = express()

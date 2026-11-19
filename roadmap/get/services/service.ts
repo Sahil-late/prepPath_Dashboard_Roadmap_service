@@ -1,6 +1,6 @@
-import Roadmaps from '../../../models/roadmaps'
-import connectDB from '../../../lib/connectDB'
-import { redisClient } from '../../../config/redis'
+import Roadmaps from '../../../models/roadmaps.js'
+import connectDB from '../../../lib/connectDB.js'
+import { redisClient } from '../../../config/redis.js'
 
 const getManyService = async (title: any): Promise<{ msg: string, roadmaps?: any, status: number }> => {
     try {

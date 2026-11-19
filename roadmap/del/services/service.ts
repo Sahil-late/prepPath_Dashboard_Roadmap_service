@@ -1,5 +1,5 @@
-import Roadmaps from '../../../models/roadmaps'
-import connectDB from '../../../lib/connectDB'
+import Roadmaps from '../../../models/roadmaps.js'
+import connectDB from '../../../lib/connectDB.js'
 
 const delManyServce = async (titles: any): Promise<{ msg: string, status: number }> => {
     try {

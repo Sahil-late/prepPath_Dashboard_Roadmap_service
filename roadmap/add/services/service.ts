@@ -1,5 +1,5 @@
-import Roadmaps from '../../../models/roadmaps'
-import connectDB from '../../../lib/connectDB'
+import Roadmaps from '../../../models/roadmaps.js'
+import connectDB from '../../../lib/connectDB.js'
 
 export default async (roadmaps: any): Promise<{ msg: string, status: number }> => {
     try {

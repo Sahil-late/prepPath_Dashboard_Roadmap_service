@@ -1,7 +1,7 @@
 import express from 'express'
-import addRoadmaps from '../roadmap/add/controllers/controller.ts'
-import { getAll, getMany } from '../roadmap/get/controllers/controller.ts'
-import { delMany,delAll } from '../roadmap/del/controllers/controller.ts'
+import addRoadmaps from '../roadmap/add/controllers/controller.js'
+import { getAll, getMany } from '../roadmap/get/controllers/controller.js'
+import { delMany,delAll } from '../roadmap/del/controllers/controller.js'
 
 const router = express.Router()
 
